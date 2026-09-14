@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    
+    <!-- Menghubungkan index.html dengan style.css -->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Header + Navigation-->
+    <header class="header">
+        <a href="#home" class="logo">Felicia<span>Frederica</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navMenu">
+            <a href="#home" class="active">Home</a>
+            <a href="#aboutme">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section class="home" id="home">
+        <div class="home-pic">
+            <img src="images/felicia.jpeg" alt="Felicia Frederica">
+        </div>
+
+        <div class="home-content">
+            <h1>Hello, I'm <span>Felicia Frederica</span></h1>
+            <h3 class="typing-text">Welcome to my <span></span></h3>
+            <p>Saya adalah Mahasiswa Teknik Informatika.</p>
+        </div>
+    </section>
+
+    <!-- Article, informasi mengenai profil mahasiwa -->
+    <article>
+        <div class="aboutme" id="aboutme">
+            <h2>About Me</h2>
+            <p><strong>Nama: </strong>Felicia Frederica</p>
+            <p><strong>Program Studi: </strong>Teknik Informatika</p>
+            <p>
+                <strong>Deskripsi Singkat:</strong><br />
+                Saya adalah mahasiswa jurusan Teknik Informatika di Universitas Tarumanagara.
+            </p>
+        </div>
+
+        <br />
+
+        <div class="skills" id="skills">
+            <h2>Skills</h2>
+            <ol>
+                <li>Penetration Testing</li>
+                <li>Design & Editing</li>
+                <li>Public Speaking</li>
+            </ol>
+        </div>
+    </article>
+
+    <!-- Footer, copyright dan contact -->
+    <footer id="contact">
+        <p>&copy; 2026 Felicia Frederica</p>
+
+        <!-- Contact, email dan LinkedIn -->
+        <div>
+        <a href="mailto:felicia.535250027@stu.untar.ac.id"><i class='bx bx-envelope'></i>Email</a>
+        <a href="https://www.linkedin.com/in/felicia-frederica/"><i class='bx bxl-linkedin-square'></i>LinkedIn</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
